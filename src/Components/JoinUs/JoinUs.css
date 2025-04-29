@@ -24,3 +24,14 @@
     width: 100%;
     margin-left: -2rem;
 }
+
+@media (max-width: 768px) {
+    .JoinUsRight {
+        padding-left: 0rem;
+        padding-top: 2rem;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+}
