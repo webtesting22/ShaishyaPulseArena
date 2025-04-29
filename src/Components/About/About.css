@@ -1,0 +1,61 @@
+.AboutContent {
+    padding: 4rem 2rem !important;
+}
+
+.AboutContentLeft {
+    height: 800px;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutContentLeft div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AboutContentRight {
+    padding-left: 2rem;
+}
+
+.AboutSliderImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AboutSliderImageContainer {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.AboutBrandTextContainer {
+    padding-top: 4rem;
+}
+
+@media (max-width: 768px) {
+    .AboutBrandTextContainer {
+        padding-top: 3rem;
+    }
+    .AboutContent {
+        padding: 2rem 0.5rem !important;
+    }
+
+    .AboutContentLeft {
+        height: 400px;
+        overflow: hidden;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .AboutContentRight {
+        padding-left: 0rem;
+        padding-top: 3rem;
+    }
+}

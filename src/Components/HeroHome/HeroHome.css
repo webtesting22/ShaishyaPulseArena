@@ -1,0 +1,132 @@
+.GraphicsShowContainer{
+    min-height: 450px;
+    overflow: hidden;
+    position: relative;
+    /* display: flex
+; */
+    /* align-items: center; */
+    /* justify-self: center;*/
+}
+
+.GraphicsShowContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    /* left: -4rem ;
+    right: -4rem; */
+}
+.HeroHomeContent .ant-row .ant-col:nth-child(1) {
+    padding-right: 2rem;
+}
+
+.HeroHomeContent {
+    padding-top:3rem;
+}
+
+.StylingTextSpan {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.StylingTextSpan::after {
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+}
+
+.StylingTextSpan::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: var(--primary-color);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.CarousalImageContainer {
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.CarousalImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.CarousalButtonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 20px;
+}
+.CarousalButtonContainer button:first-child svg {
+    transform: rotate(180deg);
+}
+
+.CarousalButtonContainer button {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.CarousalButtonContainer button:hover{
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.customNextBtn svg, .customPrevBtn svg{
+font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .GraphicsShowContainer{
+        min-height: 100%;
+        overflow: hidden;
+        position: relative;
+        /* display: flex
+    ; */
+        /* align-items: center; */
+        /* justify-self: center;*/
+    }
+    
+    .GraphicsShowContainer img{
+        width: 100%;
+        height: 100%;
+        object-fit: unset;
+        position: static;
+        /* left: -4rem ;
+        right: -4rem; */
+    }
+
+.CarousalImageContainer {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.HeroHomeContent .ant-row .ant-col:nth-child(1) {
+    padding-right: 0rem;
+}
+}

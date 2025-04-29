@@ -1,0 +1,266 @@
+/* Video Container Styles */
+.VideoContainerContent {
+    padding: 4rem 2rem !important;
+}
+
+
+.VideoBackColorContainer {
+    background-color: var(--primary-color);
+    min-height: 800px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.VideoPlace {
+    height: 400px;
+    width: 100%;
+}
+
+/* Video Player Specific Styles */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    position: sticky;
+    z-index: 5;
+}
+
+
+.VideoContainer {
+    width: 60%;
+    /* position: relative; */
+}
+
+/* Center play button */
+.center-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    z-index: 6;
+}
+
+.center-play-button.hide {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    visibility: hidden;
+}
+
+/* Controls overlay */
+.controls-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    visibility: hidden;
+    z-index: 6;
+}
+
+.controls-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.control-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: background-color 0.2s ease;
+}
+
+.control-button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.status-text {
+    color: white;
+    font-size: 14px;
+}
+
+.video-wrapper::before {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.259);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: rotate(3deg);
+    /* top: 0;
+    left: 0; */
+    /* z-index: 1; */
+}
+
+.video-wrapper::after {
+    content: "";
+    background-color: rgba(255, 255, 255, 0.131);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: rotate(-3deg);
+    /* top: 0;
+    left: 0; */
+    /* z-index: 1; */
+}
+
+.VideoContainerText {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    left: 60%;
+    right: 20px;
+    /* color: white; */
+}
+
+.VideoContainerText p {
+    color: rgba(255, 255, 255, 0.585);
+}
+
+.VideoBackColorContainer::before {
+    content: "";
+    background-color: transparent;
+    height: 63%;
+    width: 71%;
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.094);
+    transform: rotate(8deg);
+}
+
+.VideoBackColorContainer::after {
+    content: "";
+    background-color: transparent;
+    height: 63%;
+    width: 71%;
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.094);
+    transform: rotate(-8deg);
+}
+
+/* .VideoContainer::before{
+    content: "";
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+ border-radius: 40%;
+ border: 1px solid white;
+    
+} */
+
+
+.VideoDesignElement {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    right: 50%;
+    left: 20px;
+    color: white;
+}
+
+
+
+.VideoDesignElement {
+    /* position: relative; */
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* font-size: 24px;
+    font-weight: bold; */
+    color: #ffffff;
+    text-align: center;
+}
+
+.fade-slide {
+    animation: fadeSlide 2s ease-in-out;
+}
+
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    30% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .VideoContainerContent {
+        padding: 2rem 0.5rem !important;
+    }
+    .VideoBackColorContainer {
+        background-color: var(--primary-color);
+        min-height: 400px;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .VideoContainer {
+        width: 100%;
+        /* position: relative; */
+    }
+    
+}

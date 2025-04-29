@@ -1,0 +1,26 @@
+.JoinUsLeft {
+    height: 100%;
+}
+
+.JoinUsLeft div {
+    height: 100%;
+}
+
+.JoinUsLeft div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.JoinUsRight {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.JoinUsRight img {
+    width: 100%;
+    margin-left: -2rem;
+}
