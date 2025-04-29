@@ -65,7 +65,8 @@ const AboutCompanyInfo = () => {
                 </div><br /><br />
                 <Row gutter={[32, 32]} className="FirstRow">
                     {AboutCompanyCardData.slice(2, 4).map((data, index) => (
-                        <Col key={index} lg={index % 2 === 0 ? 10 : 14} xl={index % 2 === 0 ? 10 : 14}>
+                        <Col key={index} lg={index % 2 === 0 ? 10 : 14} xl={index % 2 === 0 ? 10 : 14} data-aos="fade-up"
+     data-aos-duration={index === 0 ? "1000" : index === 1 ? "1500" : index === 2 ? "2000" : "2500"}>
                             <div className="InfoCard">
                                 <div>
                                     <h3 className="smallHeading">{data.title}</h3>
@@ -78,7 +79,8 @@ const AboutCompanyInfo = () => {
                 </Row>
                 <Row gutter={[32, 32]} className="SecondRow">
                     {AboutCompanyCardData.slice(0, 2).map((data, index) => (
-                        <Col key={index} lg={index % 2 === 0 ? 14 : 10} xl={index % 2 === 0 ? 14 : 10}>
+                        <Col key={index} lg={index % 2 === 0 ? 14 : 10} xl={index % 2 === 0 ? 14 : 10} data-aos="fade-up"
+     data-aos-duration={index === 0 ? "1000" : index === 1 ? "1500" : index === 2 ? "2000" : "2500"}>
                             <div className="InfoCard">
                                 <div>
                                     <h3 className="smallHeading">{data.title}</h3>

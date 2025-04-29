@@ -34,7 +34,8 @@ const About = () => {
                             <div className="AboutusContentSwiperContainer">
                                 <div>
                                     <span className="StylingTextSpan">About Us</span>
-                                    <h1 className="mediumHeading">State-of-the-Art Sports Facilities</h1>
+                                    <h1 className="mediumHeading" data-aos="fade-up"
+     data-aos-duration="1000">State-of-the-Art Sports Facilities</h1>
                                     <div className="SwiperContainer">      <br /><br />
                                         <div>
                                             <Swiper
@@ -89,11 +90,14 @@ const About = () => {
                                 </div>
                                 {/* <br /><br /> */}
                                 <div className="AboutBrandTextContainer">
-                                    <p>At Shaishya Pulse Arena, sporting innovation is at our core. Experience unparalleled performance on our advanced, international-standard 8-layer courts designed for Football, Cricket, Paddle Tennis, and Pickleball. These premium surfaces are meticulously engineered to enhance your play and ensure utmost safety.
+                                    <p data-aos="fade-up"
+     data-aos-duration="1000">At Shaishya Pulse Arena, sporting innovation is at our core. Experience unparalleled performance on our advanced, international-standard 8-layer courts designed for Football, Cricket, Paddle Tennis, and Pickleball. These premium surfaces are meticulously engineered to enhance your play and ensure utmost safety.
                                     </p>
                                     <ul>
-                                        <li><b>Advanced 8-layer Courts:</b> Maximize your potential on courts that set new standards for safety and performance.</li>
-                                        <li><b>Comprehensive Sporting Experience:</b> Enjoy world-class facilities for multiple sports under one luxurious roof.</li>
+                                        <li data-aos="fade-up"
+     data-aos-duration="1200"><b>Advanced 8-layer Courts:</b> Maximize your potential on courts that set new standards for safety and performance.</li>
+                                        <li data-aos="fade-up"
+     data-aos-duration="1200"><b>Comprehensive Sporting Experience:</b> Enjoy world-class facilities for multiple sports under one luxurious roof.</li>
                                     </ul>
                                 </div>
                             </div>
