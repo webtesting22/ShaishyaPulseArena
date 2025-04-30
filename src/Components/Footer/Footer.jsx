@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="FooterContent sectionPadding">
                 <div>
                     <div>
-                        <img src="/Images/ShaishyaLogo.png" alt="" />
+                        <img src="/Images/ShaishyaLogo.png" alt="" loading="lazy"/>
                         <span className="StylingTextSpan"><b>Official Address:</b> Survey no. 569, Opp Sandesh Bungalow, Karnavati Road, Makarba Village, Ahmedabad, Gujarat 380054</span>
                         <span className="StylingTextSpan"><b>Phone Number:</b> +91 9979005797</span>
                         <span className="StylingTextSpan"><b>Email: </b>shaishyapulsearena@gmail.com</span>

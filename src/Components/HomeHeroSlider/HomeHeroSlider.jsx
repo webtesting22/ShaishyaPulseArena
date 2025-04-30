@@ -60,7 +60,7 @@ const HomeHeroSlider = () => {
                     {SliderImages.map((item, index) => (
                         <SwiperSlide key={index}>
                             <div className="CarousalImageContainer">
-                                <img src={item} alt="" className="SliderImage" />
+                                <img src={item} alt="home slider image" className="SliderImage" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     ))}

@@ -10,7 +10,7 @@ const JoinUs = () => {
                         <Col lg={10} md={24}>
                             <div className="JoinUsLeft">
                                 <div>
-                                    <img src="/Images/JoinUsSectionImage copy.png" alt="" />
+                                    <img src="/Images/JoinUsSectionImage copy.png" alt="" loading="lazy" />
                                 </div>
                             </div>
                         </Col>
@@ -29,7 +29,7 @@ const JoinUs = () => {
                                         <p><i>Shaishya Pulse Arena – Unite. Play. Thrive.</i></p>
                                     </div>
                                     <div>
-                                        <img src="/Images/CricketBatsmanGraphic copy.png" alt="" />
+                                        <img src="/Images/CricketBatsmanGraphic copy.png" alt="join us graphic" loading="lazy" />
                                     </div>
                                 </div>
                             </div>

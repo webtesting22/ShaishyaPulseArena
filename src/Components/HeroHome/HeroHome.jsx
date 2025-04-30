@@ -7,7 +7,7 @@ const HeroHome = () => {
         <>
             <div id="HeroHomeContainer">
                 <div className="GraphicsShowContainer">
-                    <img data-aos="fade-zoom-in" data-aos-duration="1000" src="/Images/NewCricketGraphicOnhomepage.jpg" alt="" />
+                    <img data-aos="fade-zoom-in" data-aos-duration="1000" src="/Images/NewCricketGraphicOnhomepage.jpg" alt="cricket graphic" loading="lazy"/>
                 </div>
                 <div className="HeroHomeContent sectionPadding">
 

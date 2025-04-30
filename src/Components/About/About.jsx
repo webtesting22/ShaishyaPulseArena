@@ -24,8 +24,7 @@ const About = () => {
                     <Col lg={10} mg={24} style={{ width: "100%" }}>
                         <div className="AboutContentLeft">
                             <div style={{ height: "100%", width: "100%" }}>
-
-                                <img src="/Images/AboutUsImage.jpg" alt="" />
+                                <img src="/Images/AboutUsImage.jpg" alt="about us image" loading="lazy"/>
                             </div>
                         </div>
                     </Col>
@@ -78,7 +77,7 @@ const About = () => {
                                                 {SliderImages.map((item, index) => (
                                                     <SwiperSlide key={index}>
                                                         <div className="AboutSliderImageContainer">
-                                                            <img src={item} alt="" />
+                                                            <img src={item} alt="about us image" loading="lazy"/>
                                                             {/* <span>{[index+1]}</span> */}
                                                         </div>
                                                     </SwiperSlide>
