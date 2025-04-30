@@ -24,7 +24,7 @@ const About = () => {
                     <Col lg={10} mg={24} style={{ width: "100%" }}>
                         <div className="AboutContentLeft">
                             <div style={{ height: "100%", width: "100%" }}>
-                                <img src="/Images/AboutUsImage.jpg" alt="about us image" loading="lazy"/>
+                                <img src="/Images/AboutUsImage.jpg" alt="about us image" loading="lazy" />
                             </div>
                         </div>
                     </Col>
@@ -34,7 +34,7 @@ const About = () => {
                                 <div>
                                     <span className="StylingTextSpan">About Us</span>
                                     <h1 className="mediumHeading" data-aos="fade-up"
-     data-aos-duration="1000">State-of-the-Art Sports Facilities</h1>
+                                        data-aos-duration="1000">State-of-the-Art Sports Facilities</h1>
                                     <div className="SwiperContainer">      <br /><br />
                                         <div>
                                             <Swiper
@@ -77,7 +77,7 @@ const About = () => {
                                                 {SliderImages.map((item, index) => (
                                                     <SwiperSlide key={index}>
                                                         <div className="AboutSliderImageContainer">
-                                                            <img src={item} alt="about us image" loading="lazy"/>
+                                                            <img src={item} alt="about us image" loading="lazy" />
                                                             {/* <span>{[index+1]}</span> */}
                                                         </div>
                                                     </SwiperSlide>
@@ -90,13 +90,13 @@ const About = () => {
                                 {/* <br /><br /> */}
                                 <div className="AboutBrandTextContainer">
                                     <p data-aos="fade-up"
-     data-aos-duration="1000">At Shaishya Pulse Arena, sporting innovation is at our core. Experience unparalleled performance on our advanced, international-standard 8-layer courts designed for Football, Cricket, Paddle Tennis, and Pickleball. These premium surfaces are meticulously engineered to enhance your play and ensure utmost safety.
+                                        data-aos-duration="1000">At Shaishya Pulse Arena, sporting innovation is at our core. Experience unparalleled performance on our advanced, international-standard 8-layer courts designed for Football, Cricket, Paddle Tennis, and Pickleball. These premium surfaces are meticulously engineered to enhance your play and ensure utmost safety.
                                     </p>
                                     <ul>
                                         <li data-aos="fade-up"
-     data-aos-duration="1200"><b>Advanced 8-layer Courts:</b> Maximize your potential on courts that set new standards for safety and performance.</li>
+                                            data-aos-duration="1200"><b>Advanced 8-layer Courts:</b> Maximize your potential on courts that set new standards for safety and performance.</li>
                                         <li data-aos="fade-up"
-     data-aos-duration="1200"><b>Comprehensive Sporting Experience:</b> Enjoy world-class facilities for multiple sports under one luxurious roof.</li>
+                                            data-aos-duration="1200"><b>Comprehensive Sporting Experience:</b> Enjoy world-class facilities for multiple sports under one luxurious roof.</li>
                                     </ul>
                                 </div>
                             </div>
