@@ -34,8 +34,8 @@ const About = () => {
                                 <div>
                                     <span className="StylingTextSpan">About Us</span>
                                     <h1 className="mediumHeading" data-aos="fade-up"
-                                        data-aos-duration="1000">State-of-the-Art Sports Facilities</h1>
-                                    <div className="SwiperContainer">      <br /><br />
+                                        data-aos-duration="1000">State of the Art Sports Facilities</h1>
+                                    <div className="SwiperContainer"><br /><br />
                                         <div>
                                             <Swiper
                                                 slidesPerView={1}
