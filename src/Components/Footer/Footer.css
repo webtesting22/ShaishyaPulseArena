@@ -22,6 +22,12 @@
     width: 30%;
 }
 
+#Iframe{
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+}
+
 @media (max-width: 768px) {
     .FooterContent>div:nth-child(1){
         width: 100%;
