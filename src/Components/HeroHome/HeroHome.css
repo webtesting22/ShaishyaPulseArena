@@ -1,27 +1,33 @@
-.GraphicsShowContainer{
-    min-height: 450px;
+.GraphicsShowContainer {
+    min-height: 80px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 3rem;
+    border-bottom: 1px solid #0000001a;
     /* display: flex
 ; */
     /* align-items: center; */
     /* justify-self: center;*/
 }
 
-.GraphicsShowContainer img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
+.GraphicsShowContainer img {
+    width: 200px;
+    /* height: 100%; */
+    /* object-fit: cover; */
+    /* position: absolute; */
     /* left: -4rem ;
     right: -4rem; */
 }
+
 .HeroHomeContent .ant-row .ant-col:nth-child(1) {
     padding-right: 2rem;
 }
 
 .HeroHomeContent {
-    padding-top:3rem;
+    padding-top: 3rem;
 }
 
 .StylingTextSpan {
@@ -66,12 +72,14 @@
     height: 100%;
     object-fit: cover;
 }
-.CarousalButtonContainer{
+
+.CarousalButtonContainer {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
     gap: 20px;
 }
+
 .CarousalButtonContainer button:first-child svg {
     transform: rotate(180deg);
 }
@@ -86,31 +94,46 @@
     justify-content: center;
     transition: .5s;
 }
-.CarousalButtonContainer button:hover{
+
+.CarousalButtonContainer button:hover {
     background-color: var(--primary-color);
     color: white;
     cursor: pointer;
     transition: .5s;
 }
 
-.customNextBtn svg, .customPrevBtn svg{
-font-size: 20px;
+.customNextBtn svg,
+.customPrevBtn svg {
+    font-size: 20px;
+}
+
+.RigtSideLinksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    height: 100%;
 }
 
 
 @media (max-width: 768px) {
-    .GraphicsShowContainer{
+.GraphicsShowContainer .ant-row {
+    display: flex;
+    flex-wrap: nowrap !important;
+}
+    .GraphicsShowContainer {
         min-height: 100%;
         overflow: hidden;
         position: relative;
+        padding: 0rem 1rem;
         /* display: flex
     ; */
         /* align-items: center; */
         /* justify-self: center;*/
     }
-    
-    .GraphicsShowContainer img{
-        width: 100%;
+
+    .GraphicsShowContainer img {
+        width: 60%;
         height: 100%;
         object-fit: unset;
         position: static;
@@ -118,15 +141,16 @@ font-size: 20px;
         right: -4rem; */
     }
 
-.CarousalImageContainer {
-    height: 300px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-}
-.HeroHomeContent .ant-row .ant-col:nth-child(1) {
-    padding-right: 0rem;
-}
+    .CarousalImageContainer {
+        height: 300px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    .HeroHomeContent .ant-row .ant-col:nth-child(1) {
+        padding-right: 0rem;
+    }
 }

@@ -90,14 +90,20 @@ const About = () => {
                                 {/* <br /><br /> */}
                                 <div className="AboutBrandTextContainer">
                                     <p data-aos="fade-up"
-                                        data-aos-duration="1000">At Shaishya Pulse Arena, sporting innovation is at our core. Experience unparalleled performance on our advanced, international-standard 8-layer courts designed for Football, Cricket, Paddle Tennis, and Pickleball. These premium surfaces are meticulously engineered to enhance your play and ensure utmost safety.
+                                        data-aos-duration="1000">At Shaishya Pulse Arena, sporting innovation is at our core. Experience unparalleled performance.
                                     </p>
                                     <ul>
                                         <li data-aos="fade-up"
-                                            data-aos-duration="1200"><b>Advanced 8-layer Courts:</b> Maximize your potential on courts that set new standards for safety and performance.</li>
+                                            data-aos-duration="1200">Advanced, international-standard Padel courts</li>
                                         <li data-aos="fade-up"
-                                            data-aos-duration="1200"><b>Comprehensive Sporting Experience:</b> Enjoy world-class facilities for multiple sports under one luxurious roof.</li>
+                                            data-aos-duration="1200">Cutting-edge, 8-layer Pickleball courts meeting global standards</li>
+                                        <li data-aos="fade-up"
+                                            data-aos-duration="1200">FIFA-approved turf for Football</li>
+                                        <li data-aos="fade-up"
+                                            data-aos-duration="1200">Larger and superior Box Cricket turf</li>
                                     </ul>
+                                    <p data-aos="fade-up"
+                                        data-aos-duration="1400">These premium surfaces are meticulously engineered to enhance your play and ensure utmost safety.</p>
                                 </div>
                             </div>
                         </div>

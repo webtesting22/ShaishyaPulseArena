@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutCompanyInfo.css";
 import { Row, Col } from "antd";
+import { MdOutlineQuestionMark } from "react-icons/md";
 
 const AboutCompanyInfo = () => {
 
@@ -12,20 +13,23 @@ const AboutCompanyInfo = () => {
             </>,
             subpoints: <>
                 <ul>
-                    <li><b>Personalized Training Programs:</b> Tailored coaching to match your skill level and ambitions.</li>
-                    <li><b>Professional Coaches:</b> Learn from dedicated experts committed to nurturing your talent and passion.</li>
+                    <li>Personalized Training Programs: Tailored coaching to match your skill level and ambitions.</li>
+                    <li>Professional Coaches: Learn from dedicated experts committed to nurturing your talent and passion.
+                    </li>
                 </ul>
             </>
         },
         {
             title: "A Thriving Community of Passionate Competitors",
             content: <>
-                <p>Beyond competition, Shaishya Pulse Arena fosters a community united by shared dedication to sport and personal growth. Our thoughtfully designed spaces encourage meaningful interactions, collaboration, and a collective pursuit of excellence.</p>
+                <p>Beyond competition, Shaishya Pulse Arena fosters a community united by shared dedication to sport and personal growth. Our thoughtfully designed spaces encourage meaningful interactions, collaboration, and a collective pursuit of excellence.
+                It’s a place where players form bonds, teams become families, and the spirit of sport comes alive through shared experience.</p>
             </>,
             subpoints: <>
                 <ul>
-                    <li><b>Luxurious Café & Lounge Areas:</b> Relax and recharge in sophisticated spaces designed for comfort and conversation.</li>
-                    <li><b>Dynamic Event Spaces:</b> Perfect for hosting events, celebrating milestones, and networking with fellow enthusiasts.</li>
+                    <li>Community-Centric Facilities: Café, lounge, and event zones designed for connection.</li>
+                    <li>Vibrant Events & Tournaments: Fuel your fire with regular leagues, workshops, and themed playdays.
+                    </li>
                 </ul>
             </>
         },
@@ -36,21 +40,26 @@ const AboutCompanyInfo = () => {
             </>,
             subpoints: <>
                 <ul>
-                    <li><b>Professional Athletes:</b> Committed to elite performance and continuous improvement.</li>
-                    <li><b>Ambitious Amateurs:</b> Passionate players dedicated to refining their skills and achieving new milestones.</li>
+                    <li><b>Ambitious Amateurs:</b> Passionate players hungry to learn and improve, and who are dedicated to refining their skills and achieving new milestones.
+                    </li>
                     <li><b>Emerging Competitors:</b> Athletes transitioning from amateur play to professional excellence.</li>
+                    <li><b>Professional Athletes:</b> Focused on sharpening their competitive edge, and committed to elite performance and continuous improvement.</li>
                 </ul>
             </>
         },
         {
-            title: "Why Choose Shaishya Pulse Arena?",
+            title: <>Why Choose Shaishya Pulse Arena<MdOutlineQuestionMark /></>,
             content: <>
             </>,
             subpoints: <>
                 <ul>
-                    <li><b>Pioneering Sports Innovation:</b> Leading Ahmedabad in embracing emerging global sports trends.</li>
-                    <li><b>Luxury and Excellence:</b> Indulge in an exclusive sporting environment designed for maximum comfort and superior performance.</li>
-                    <li><b>Community and Camaraderie:</b> Engage in an environment that celebrates competition, connection, and collective growth.</li>
+                    <li><b>World-Class Facilities:</b> Experience premium, international-standard courts and turfs designed for Padel, Pickleball, Football, and Box Cricket.
+                        Community Spirit: Join a vibrant, sports-loving community where passion for the game meets camaraderie.
+                    </li>
+                    <li><b>Safety First:</b> Play with confidence on surfaces engineered for performance and safety.
+                        Inclusive for All: Whether you’re a pro athlete or just playing for fun, we have something for everyone.
+                    </li>
+                    <li><b>Fitness & Fun Combined:</b> Embrace an active lifestyle in an energetic and inspiring environment.</li>
                 </ul>
             </>
         },
@@ -61,7 +70,7 @@ const AboutCompanyInfo = () => {
             <div className="AboutCompanyInfoContent sectionPadding">
                 <div>
                     <span className="StylingTextSpan">About Brand</span>
-                    <h2 className="mediumHeading">Expert Coaching to Unleash Your Potential</h2>
+                    <h2 className="mediumHeading">A High Energy sports experience</h2>
                 </div><br /><br />
                 <Row gutter={[32, 32]} className="FirstRow">
                     {AboutCompanyCardData.slice(2, 4).map((data, index) => (

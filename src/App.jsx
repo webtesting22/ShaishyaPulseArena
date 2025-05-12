@@ -8,6 +8,7 @@ import VideoContainer from './Components/VideoContainer/VideoContainer'
 import AboutCompanyInfo from './Components/AboutCompanyInfo/AboutCompanyInfo'
 import JoinUs from './Components/JoinUs/JoinUs'
 import Footer from './Components/Footer/Footer'
+import CallUs from './Components/CallUs/CallUs'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,10 +16,11 @@ function App() {
     <>
       <HeroHome />
       <About />
-      <VideoContainer />
       <AboutCompanyInfo />
       <JoinUs />
+      <VideoContainer />
       <Footer />
+      <CallUs/>
     </>
   )
 }

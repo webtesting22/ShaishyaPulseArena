@@ -19,14 +19,14 @@ const JoinUs = () => {
                                 <div>
                                     <div>
                                         <span className="StylingTextSpan">Join Us</span>
-                                        <h2 className="mediumHeading">Join the Sporting Revolution</h2>
-                                        <p>Step into a community that's not just about playing sports—it's about transforming the sporting experience in Ahmedabad. Every drill, every match, every moment spent here brings you closer to greatness.
-                                        </p>
+                                        <h2 className="mediumHeading">Join the sporting revolution:</h2>
+                                        <p>The mission is to provide world-class sports facilities, organize engaging events, and build a thriving sports community that empowers every player—from amateur to pro.</p>
                                         <p><b>Are you ready to play, connect, and thrive?</b></p>
                                     </div>
                                     <div>
                                         <p>Join Shaishya Pulse Arena today and become part of Ahmedabad's elite sporting movement.</p>
                                         <p><i>Shaishya Pulse Arena – Unite. Play. Thrive.</i></p>
+                                        <p>With the cricket line figure.</p>
                                     </div>
                                     <div>
                                         <img src="/Images/CricketBatsmanGraphic copy.png" alt="join us graphic" loading="lazy" />
