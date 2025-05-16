@@ -16,7 +16,6 @@ const HeroHome = () => {
                         </Col>
                         <Col lg={12}>
                             <div className="RigtSideLinksContainer">
-                                
                                 <div>
                                   <a href="https://www.instagram.com/shaishyapulsearena?igsh=ZWJlYmdsbWF2aDQz&utm_source=qr" target="_blank" style={{color:"black"}}><b> Instagram</b></a>
                                 </div>
@@ -26,7 +25,6 @@ const HeroHome = () => {
                     {/* <img data-aos="fade-zoom-in" data-aos-duration="1000" src="/Images/NewCricketGraphicOnhomepage.jpg" alt="cricket graphic" loading="lazy"/> */}
                 </div>
                 <div className="HeroHomeContent sectionPadding">
-
                     <div>
                         <Row>
                             <Col lg={12} md={12} sm={24} xs={24}>

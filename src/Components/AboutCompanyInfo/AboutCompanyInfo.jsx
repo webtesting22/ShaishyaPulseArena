@@ -6,24 +6,12 @@ import { MdOutlineQuestionMark } from "react-icons/md";
 const AboutCompanyInfo = () => {
 
     const AboutCompanyCardData = [
-        {
-            title: "Expert Coaching to Unleash Your Potential",
-            content: <>
-                <p>Shaishya Pulse Arena prides itself on offering elite coaching tailored to every athlete's unique aspirations. Our experienced coaches guide you through customized training, ensuring every session pushes your boundaries further.</p>
-            </>,
-            subpoints: <>
-                <ul>
-                    <li>Personalized Training Programs: Tailored coaching to match your skill level and ambitions.</li>
-                    <li>Professional Coaches: Learn from dedicated experts committed to nurturing your talent and passion.
-                    </li>
-                </ul>
-            </>
-        },
+
         {
             title: "A Thriving Community of Passionate Competitors",
             content: <>
                 <p>Beyond competition, Shaishya Pulse Arena fosters a community united by shared dedication to sport and personal growth. Our thoughtfully designed spaces encourage meaningful interactions, collaboration, and a collective pursuit of excellence.
-                It’s a place where players form bonds, teams become families, and the spirit of sport comes alive through shared experience.</p>
+                    It’s a place where players form bonds, teams become families, and the spirit of sport comes alive through shared experience.</p>
             </>,
             subpoints: <>
                 <ul>
@@ -63,6 +51,21 @@ const AboutCompanyInfo = () => {
                 </ul>
             </>
         },
+
+        {
+            title: "Expert Coaching to Unleash Your Potential",
+            content: <>
+                <p>Shaishya Pulse Arena prides itself on offering elite coaching tailored to every athlete's unique aspirations. Our experienced coaches guide you through customized training, ensuring every session pushes your boundaries further.</p>
+            </>,
+            subpoints: <>
+                <ul>
+                    <li>Personalized Training Programs: Tailored coaching to match your skill level and ambitions.</li>
+                    <li>Professional Coaches: Learn from dedicated experts committed to nurturing your talent and passion.
+                    </li>
+                </ul>
+            </>
+        },
+
     ];
 
     return (
