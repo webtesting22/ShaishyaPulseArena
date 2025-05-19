@@ -10,7 +10,7 @@ const JoinUs = () => {
                         <Col lg={10} md={24}>
                             <div className="JoinUsLeft">
                                 <div>
-                                    <img src="https://s3.ap-south-1.amazonaws.com/prepseed/prod/ldoc/inventoryManagement/abVPqcP5HTvl7Aj7DadU/JoinUsSectionImage copy.png" alt="" loading="lazy" />
+                                    <img src="/Images/1.JPG" alt="" loading="lazy" />
                                 </div>
                             </div>
                         </Col>

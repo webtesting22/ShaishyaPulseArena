@@ -12,10 +12,11 @@ const About = () => {
 
 
     const SliderImages = [
-        "https://img.freepik.com/free-photo/people-playing-padle-tennis-inside_23-2149444608.jpg?t=st=1745903975~exp=1745907575~hmac=d42e3a2140faf582192be8959a49fe167e5ba6a040513a73172df4e39d1b0103&w=2000",
-        "https://cricbuddyapi.cricbuddy.in/VenueImages/139/1393c876f05-bb3f-498b-9d66-80c13176b69b.jpg",
-        "https://content.jdmagicbox.com/v2/comp/himatnagar/y9/9999p2772.2772.240425223313.s2y9/catalogue/atri-box-cricket-himatnagar-sports-clubs-Ro4ioxDtfO.jpg",
-        "/Images/2.jpeg",
+        "/Images/1.JPG",
+        "/Images/2.JPG",
+        "/Images/3.JPG",
+        "/Images/4.JPG",
+        "/Images/5.JPG",
     ]
     return (
         <div className="AboutContainer">
@@ -24,7 +25,7 @@ const About = () => {
                     <Col lg={10} mg={24} style={{ width: "100%" }}>
                         <div className="AboutContentLeft">
                             <div style={{ height: "100%", width: "100%" }}>
-                                <img src="/Images/AboutUsImage.jpg" alt="about us image" loading="lazy" />
+                                <img src="/Images/3.JPG" alt="about us image" loading="lazy" />
                             </div>
                         </div>
                     </Col>
