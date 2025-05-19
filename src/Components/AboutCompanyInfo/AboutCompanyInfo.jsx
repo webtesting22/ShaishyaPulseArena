@@ -6,6 +6,37 @@ import { MdOutlineQuestionMark } from "react-icons/md";
 const AboutCompanyInfo = () => {
 
     const AboutCompanyCardData = [
+        {
+            title: <>Why Choose Shaishya Pulse Arena<MdOutlineQuestionMark /></>,
+            content: <>
+            </>,
+            subpoints: <>
+                <ul>
+                    <li><b>World-Class Facilities:</b> Experience premium, international-standard courts and turfs designed for Padel, Pickleball, Football, and Box Cricket.
+                        Community Spirit: Join a vibrant, sports-loving community where passion for the game meets camaraderie.
+                    </li>
+                    <li><b>Safety First:</b> Play with confidence on surfaces engineered for performance and safety.
+                        Inclusive for All: Whether you’re a pro athlete or just playing for fun, we have something for everyone.
+                    </li>
+                    <li><b>Fitness & Fun Combined:</b> Embrace an active lifestyle in an energetic and inspiring environment.</li>
+                </ul>
+            </>
+        },
+        {
+            title: "Expert Coaching to Unleash Your Potential",
+            content: <>
+                <p>Shaishya Pulse Arena prides itself on offering elite coaching tailored to every athlete's unique aspirations. Our experienced coaches guide you through customized training, ensuring every session pushes your boundaries further.</p>
+            </>,
+            subpoints: <>
+                <ul>
+                    <li>Personalized Training Programs: Tailored coaching to match your skill level and ambitions.</li>
+                    <li>Professional Coaches: Learn from dedicated experts committed to nurturing your talent and passion.
+                    </li>
+                </ul>
+            </>
+        },
+
+
 
         {
             title: "A Thriving Community of Passionate Competitors",
@@ -35,37 +66,8 @@ const AboutCompanyInfo = () => {
                 </ul>
             </>
         },
-        {
-            title: <>Why Choose Shaishya Pulse Arena<MdOutlineQuestionMark /></>,
-            content: <>
-            </>,
-            subpoints: <>
-                <ul>
-                    <li><b>World-Class Facilities:</b> Experience premium, international-standard courts and turfs designed for Padel, Pickleball, Football, and Box Cricket.
-                        Community Spirit: Join a vibrant, sports-loving community where passion for the game meets camaraderie.
-                    </li>
-                    <li><b>Safety First:</b> Play with confidence on surfaces engineered for performance and safety.
-                        Inclusive for All: Whether you’re a pro athlete or just playing for fun, we have something for everyone.
-                    </li>
-                    <li><b>Fitness & Fun Combined:</b> Embrace an active lifestyle in an energetic and inspiring environment.</li>
-                </ul>
-            </>
-        },
-
-        {
-            title: "Expert Coaching to Unleash Your Potential",
-            content: <>
-                <p>Shaishya Pulse Arena prides itself on offering elite coaching tailored to every athlete's unique aspirations. Our experienced coaches guide you through customized training, ensuring every session pushes your boundaries further.</p>
-            </>,
-            subpoints: <>
-                <ul>
-                    <li>Personalized Training Programs: Tailored coaching to match your skill level and ambitions.</li>
-                    <li>Professional Coaches: Learn from dedicated experts committed to nurturing your talent and passion.
-                    </li>
-                </ul>
-            </>
-        },
-
+        
+       
     ];
 
     return (
@@ -75,34 +77,34 @@ const AboutCompanyInfo = () => {
                     <span className="StylingTextSpan">About Brand</span>
                     <h2 className="mediumHeading">A High Energy sports experience</h2>
                 </div><br /><br />
-                <Row gutter={[32, 32]} className="FirstRow">
-                    {AboutCompanyCardData.slice(2, 4).map((data, index) => (
-                        <Col key={index} lg={index % 2 === 0 ? 10 : 14} xl={index % 2 === 0 ? 10 : 14} data-aos="fade-up"
-                            data-aos-duration={index === 0 ? "1000" : index === 1 ? "1500" : index === 2 ? "2000" : "2500"}>
-                            <div className="InfoCard">
-                                <div>
-                                    <h3 className="smallHeading">{data.title}</h3>
-                                    <p>{data.content}</p>
-                                    <p>{data.subpoints}</p>
-                                </div>
-                            </div>
-                        </Col>
-                    ))}
-                </Row>
-                <Row gutter={[32, 32]} className="SecondRow">
-                    {AboutCompanyCardData.slice(0, 2).map((data, index) => (
-                        <Col key={index} lg={index % 2 === 0 ? 14 : 10} xl={index % 2 === 0 ? 14 : 10} data-aos="fade-up"
-                            data-aos-duration={index === 0 ? "1000" : index === 1 ? "1500" : index === 2 ? "2000" : "2500"}>
-                            <div className="InfoCard">
-                                <div>
-                                    <h3 className="smallHeading">{data.title}</h3>
-                                    <p>{data.content}</p>
-                                    <p>{data.subpoints}</p>
-                                </div>
-                            </div>
-                        </Col>
-                    ))}
-                </Row>
+                {/* First Row: One full-width column (24) */}
+<Row gutter={[32, 32]} className="FirstRow">
+  <Col span={24} data-aos="fade-up" data-aos-duration="1000">
+    <div className="InfoCard">
+      <div>
+        <h3 className="smallHeading">{AboutCompanyCardData[0].title}</h3>
+        <p>{AboutCompanyCardData[0].content}</p>
+        <p>{AboutCompanyCardData[0].subpoints}</p>
+      </div>
+    </div>
+  </Col>
+</Row>
+
+{/* Second Row: Three equal columns (8 + 8 + 8) */}
+<Row gutter={[32, 32]} className="SecondRow">
+  {AboutCompanyCardData.slice(1, 4).map((data, index) => (
+    <Col key={index} span={8} data-aos="fade-up" data-aos-duration={`${1000 + index * 500}`}>
+      <div className="InfoCard">
+        <div>
+          <h3 className="smallHeading">{data.title}</h3>
+          <p>{data.content}</p>
+          <p>{data.subpoints}</p>
+        </div>
+      </div>
+    </Col>
+  ))}
+</Row>
+
 
             </div>
         </div>

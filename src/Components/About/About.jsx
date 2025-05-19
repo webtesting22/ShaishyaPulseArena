@@ -51,14 +51,12 @@ const About = () => {
                                                 //     clickable: true,
                                                 // }}
                                                 breakpoints={{
-                                                    // When window width is <= 480px
                                                     480: {
                                                         slidesPerView: 1, // Show 1 slide at a time
                                                         spaceBetween: 10, // Reduce space between slides
                                                     },
-                                                    // When window width is <= 768px
                                                     768: {
-                                                        slidesPerView: 1.5, // Show 1.5 slides at a time
+                                                        slidesPerView: 1.5, 
                                                         spaceBetween: 20,
                                                     },
                                                     // When window width is <= 1024px
