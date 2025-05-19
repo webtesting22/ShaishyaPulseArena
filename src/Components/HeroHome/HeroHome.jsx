@@ -29,7 +29,9 @@ const HeroHome = () => {
                         <Row>
                             <Col lg={12} md={12} sm={24} xs={24}>
                                 <div>
-                                    <span className="StylingTextSpan">Box Cricket Arena</span>
+                                    <div style={{display:"flex",gap:"20px"}}>
+                                    <span className="StylingTextSpan" style={{color:"#3a82ca"}}>⁠Pickleball</span><span className="StylingTextSpan" style={{color:"#f27e16"}}>Padel</span><span className="StylingTextSpan" style={{color:"#04ad99"}}>Turfs</span>    
+                                    </div>
                                     <h1 className="bigHeading" data-aos="fade-right"
                                         data-aos-duration="2000" data-aos-delay="500">Ahmedabad’s hub for sport energy and community</h1>
                                 </div>
@@ -37,7 +39,7 @@ const HeroHome = () => {
                             <Col lg={12} md={12} sm={24} xs={24}>
                                 <div data-aos="fade-left"
                                     data-aos-duration="2000" data-aos-delay="1000">
-                                    <p><b>Experience Ahmedabad’s Ultimate Sporting Revolution</b></p>
+                                    <p style={{color:"#f27e16"}}><b>Experience Ahmedabad’s Ultimate Sporting Revolution</b></p>
                                     <p>Welcome to Shaishya Pulse Arena—a space meticulously crafted for those who demand excellence, cherish community, and aspire to elevate their athletic journey. Here, ambition meets luxury, transforming every game into an extraordinary experience.
                                     </p>
                                     <div>

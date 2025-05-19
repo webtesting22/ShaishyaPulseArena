@@ -9,7 +9,7 @@ const CallUs = () => {
     <a href={`tel:${phoneNumber}`} className="call-button-wrapper">
       <div className="call-button-pulse"></div>
       <div className="call-button-icon">
-        <FaPhoneAlt color="white" />
+        <FaPhoneAlt color="#022824" />
       </div>
     </a>
   );

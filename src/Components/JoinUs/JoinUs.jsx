@@ -18,8 +18,8 @@ const JoinUs = () => {
                             <div className="JoinUsRight">
                                 <div>
                                     <div>
-                                        <span className="StylingTextSpan">Join Us</span>
-                                        <h2 className="mediumHeading">Join the sporting revolution</h2>
+                                        {/* <span className="StylingTextSpan">Join Us</span> */}
+                                        <h2 className="mediumHeading" style={{color:"#0C4D18"}}>Join the sporting revolution</h2>
                                         <p>The mission is to provide world-class sports facilities, organize engaging events, and build a thriving sports community that empowers every player—from amateur to pro.</p>
                                         <p><b>Are you ready to play, connect, and thrive?</b></p>
                                     </div>

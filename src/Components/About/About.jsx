@@ -14,7 +14,7 @@ const About = () => {
     const SliderImages = [
         "/Images/1.JPG",
         "/Images/2.JPG",
-        "/Images/3.JPG",
+        // "/Images/3.JPG",
         "/Images/4.JPG",
         "/Images/5.JPG",
     ]
@@ -35,7 +35,7 @@ const About = () => {
                                 <div>
                                     <span className="StylingTextSpan">About Us</span>
                                     <h1 className="mediumHeading" data-aos="fade-up"
-                                        data-aos-duration="1000">State of the Art Sports Facilities</h1>
+                                        data-aos-duration="1000" style={{color:"rgb(58, 130, 202)"}}>State of the Art Sports Facilities</h1>
                                     <div className="SwiperContainer"><br /><br />
                                         <div>
                                             <Swiper
