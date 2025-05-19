@@ -66,8 +66,8 @@ const AboutCompanyInfo = () => {
                 </ul>
             </>
         },
-        
-       
+
+
     ];
 
     return (
@@ -78,32 +78,32 @@ const AboutCompanyInfo = () => {
                     <h2 className="mediumHeading">A High Energy sports experience</h2>
                 </div><br /><br />
                 {/* First Row: One full-width column (24) */}
-<Row gutter={[32, 32]} className="FirstRow">
-  <Col span={24} data-aos="fade-up" data-aos-duration="1000">
-    <div className="InfoCard">
-      <div>
-        <h3 className="smallHeading">{AboutCompanyCardData[0].title}</h3>
-        <p>{AboutCompanyCardData[0].content}</p>
-        <p>{AboutCompanyCardData[0].subpoints}</p>
-      </div>
-    </div>
-  </Col>
-</Row>
+                <Row gutter={[32, 32]} className="FirstRow">
+                    <Col span={24} data-aos="fade-up" data-aos-duration="1000">
+                        <div className="InfoCard">
+                            <div>
+                                <h3 className="smallHeading">{AboutCompanyCardData[0].title}</h3>
+                                <p>{AboutCompanyCardData[0].content}</p>
+                                <p>{AboutCompanyCardData[0].subpoints}</p>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
 
-{/* Second Row: Three equal columns (8 + 8 + 8) */}
-<Row gutter={[32, 32]} className="SecondRow">
-  {AboutCompanyCardData.slice(1, 4).map((data, index) => (
-    <Col key={index} span={8} data-aos="fade-up" data-aos-duration={`${1000 + index * 500}`}>
-      <div className="InfoCard">
-        <div>
-          <h3 className="smallHeading">{data.title}</h3>
-          <p>{data.content}</p>
-          <p>{data.subpoints}</p>
-        </div>
-      </div>
-    </Col>
-  ))}
-</Row>
+                {/* Second Row: Three equal columns (8 + 8 + 8) */}
+                <Row gutter={[32, 32]} className="SecondRow">
+                    {AboutCompanyCardData.slice(1, 4).map((data, index) => (
+                        <Col key={index}  xs={24} sm={24} md={8} lg={8} xl={8} data-aos="fade-up" data-aos-duration={`${1000 + index * 500}`}>
+                            <div className="InfoCard">
+                                <div>
+                                    <h3 className="smallHeading">{data.title}</h3>
+                                    <p>{data.content}</p>
+                                    <p>{data.subpoints}</p>
+                                </div>
+                            </div>
+                        </Col>
+                    ))}
+                </Row>
 
 
             </div>
